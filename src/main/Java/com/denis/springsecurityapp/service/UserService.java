@@ -12,5 +12,5 @@ import com.denis.springsecurityapp.model.User;
 public interface UserService {
     void save(User user);
 
-    User findByUserName(String username);
+    User findByUsername(String username);
 }
