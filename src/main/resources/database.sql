@@ -15,7 +15,7 @@ CREATE TABLE roles
 )
     ENGINE = InnoDB;
 
--- Table for mapping user and roles: user_roles
+-- Table for mapping user and roles: users_roles
 CREATE TABLE users_roles(
     user_id INT NOT NULL,
     role_id INT NOT NULL,
